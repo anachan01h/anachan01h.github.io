@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ana-chan's Website</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <script src="./scripts/script.js"></script>
+</head>
+<body onload="updateText('./content/home.html')">
+    <header>
+        <h1>Ana-chan's Website</h1>
+        <marquee>Welcome!</marquee>
+    </header>
+    <nav>
+        <a onclick="updateText('./content/home.html')">Home</a>
+        <a onclick="updateText('./content/redes.html')">Minhas Redes</a>
+        <a onclick="updateText('./content/my-logic-world.html')">Meu Mundo de Lógica</a>
+    </nav>
+    <main>
+        <article id="text"></article>
+    </main>
+    <footer>
+        View on <a href="https://github.com/anachan01h/anachan01h.github.io" target="_blank">Github</a>
+    </footer>
+</body>
+</html>

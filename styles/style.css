@@ -1,0 +1,81 @@
+/* Configurações gerais da página */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #008;
+}
+
+body {
+    width: 1024px;
+    margin: auto;
+    font: bold 12pt monospace;
+    color: #880;
+}
+
+/* Header */
+header {
+    border-right: 5px solid #880;
+    border-top: 5px solid #880;
+    border-left: 5px solid #880;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24pt;
+}
+
+/* Menu */
+nav {
+    overflow: hidden;
+    background-color: #880;
+    color: #008;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: #008;
+}
+
+nav a:hover {
+    background-color: #FF0;
+    color: #00F;
+}
+
+/* Conteúdo Principal */
+main {
+    border-left: 5px solid #880;
+    border-bottom: 5px solid #880;
+    border-right: 5px solid #880;
+    padding: 15px;
+}
+
+main a {
+    color: #880;
+}
+
+main a:hover {
+    color: #FF0;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #808;
+}
+
+footer a:hover {
+    color: #F0F;
+}
