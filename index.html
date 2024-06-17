@@ -5,18 +5,43 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
     <script src="./scripts/script.js"></script>
 </head>
-<body onload="updateText('./content/home.html')">
+<body onload="main()">
     <header>
         <h1>Ana-chan's Website</h1>
         <marquee>Welcome!</marquee>
     </header>
     <nav>
-        <a onclick="updateText('./content/home.html')">Home</a>
-        <a onclick="updateText('./content/redes.html')">Minhas Redes</a>
-        <a onclick="updateText('./content/my-logic-world.html')">Meu Mundo de Lógica</a>
+        <a id="a-home">Home</a>
+        <a id="a-redes">Minhas Redes</a>
+        <a id="a-logica">Meu Mundo de Lógica</a>
     </nav>
     <main>
-        <article id="text"></article>
+        <article id="home">
+            <p>
+                Eu sou a Ana, faço pesquisa na área de Lógica e amo programação em baixo nível &lt;3
+            </p>
+            <p>
+                Atualmente sou doutoranda em Matemática, pesquisando Lógica Algébrica. Além disso, tenho estudado sobre teoria da computação e compiladores, planejando projetos de divulgação de Lógica para o futuro ^-^
+            </p>
+        </article>
+        <article id="redes">
+            <ul>
+                <li><a href="https://twitter.com/anachan01h" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/anachan01h" target="_blank">Github</a></li>
+                <li><a href="https://twitch.tv/anachan01h" target="_blank">Twitch</a></li>
+            </ul>
+        </article>
+        <article id="logica">
+            <p>
+                O Meu Mundo de Lógica é meu projeto de divulgação de Lógica na internet. A ideia inicial era ser um canal no Youtube, mas infelizmente ainda não consegui produzir nada além de dois vídeos e algumas lives rsrsrs
+            </p>
+            <p>
+                O canal do Meu Mundo de Lógica pode ser acessado <a href="https://www.youtube.com/@mylogicworld" target="_blank">aqui</a>.
+            </p>
+            <p>
+                Em breve devo começar a escrever um blog também, que fará parte desse projeto.
+            </p>
+        </article>
     </main>
     <footer>
         View on <a href="https://github.com/anachan01h/anachan01h.github.io" target="_blank">Github</a>

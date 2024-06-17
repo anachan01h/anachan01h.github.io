@@ -68,6 +68,10 @@ main ul {
     list-style-type: square;
 }
 
+main article {
+    display: none;
+}
+
 /* Footer */
 footer {
     text-align: center;
